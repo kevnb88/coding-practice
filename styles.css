@@ -12,11 +12,11 @@ background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg
 }
 .flavor {
 	text-align: left;
-	width: 50%;
+	width: 75%;
 }
 .price {
 	text-align: right;
-	width: 50%;
+	width: 25%;
 }
 .item p {
 	display: inline-block
