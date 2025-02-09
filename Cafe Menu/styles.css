@@ -10,7 +10,7 @@ background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg
 	margin-left: auto;
 	margin-right: auto;
 }
-.flavor {
+.flavor, .dessert {
 	text-align: left;
 	width: 75%;
 }
