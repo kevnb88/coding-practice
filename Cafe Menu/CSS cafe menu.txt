@@ -45,6 +45,8 @@
 					</article>
 				</section>
 			</main>
-			<footer></footer>
+			<footer>
+				<p><a target="_blank" href="https://www.freecodecamp.org">Visit our website</a></p>
+			</footer>
 	</body>
 </html>
