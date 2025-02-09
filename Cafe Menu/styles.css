@@ -10,6 +10,7 @@ h1 {
 h2 {
 	font-size: 30px;
 }
+
 .established {
 	font-style: italic;
 }
@@ -25,6 +26,10 @@ h1, h2, p {
 	margin-right: auto;
 	padding: 20px;
 	max-width: 500px;
+}
+
+hr {
+	height: 3px;
 }
 
 h1, h2 {
