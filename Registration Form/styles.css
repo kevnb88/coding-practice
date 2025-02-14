@@ -17,6 +17,7 @@ p {
 form {
 	margin: 0 auto;
 	width: clamp(300px, 60vw, 500px);
+    padding-bottom: 2em;
 }
 
 fieldset {
@@ -68,4 +69,8 @@ input[type="submit"] {
 
 input[type="file"] {
     padding: 1px 2px;
+}
+
+a {
+    color: #dfdfe2;
 }
