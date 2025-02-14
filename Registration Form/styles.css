@@ -14,6 +14,11 @@ p {
 	text-align: center;
 }
 
+form {
+    margin: 0 auto;
+    width: clamp(300px, 60vw, 500px)
+}
+
 label {
 	display: block;
 	margin: 0.5rem 0;
