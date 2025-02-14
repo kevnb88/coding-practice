@@ -15,11 +15,28 @@ p {
 }
 
 form {
-    margin: 0 auto;
-    width: clamp(300px, 60vw, 500px)
+	margin: 0 auto;
+	width: clamp(300px, 60vw, 500px);
+}
+
+fieldset {
+	padding: 2rem 0;
+	border: none;
+	border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+	border-bottom: none;
 }
 
 label {
 	display: block;
 	margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+	margin: 10px 0 0 0;
+	width: 100%;
 }
