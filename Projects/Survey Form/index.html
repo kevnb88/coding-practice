@@ -15,22 +15,74 @@
 			action="https://survey-demo-placeholder.org"
 			method="post">
 			<fieldset>
-				<label for="name"
+				<label
+					for="name"
+					id="name-label"
 					>Name
 					<input
 						id="name"
 						type="text"
 						name="name"
+						placeholder="Enter your name"
 						required
 				/></label>
-				<label for="email">
+				<label
+					for="email"
+					id="email-label">
 					Email
 					<input
 						id="email"
 						type="email"
 						name="email"
+						placeholder="Enter your email"
 						required
 				/></label>
+				<label
+					for="number"
+					id="number-label"
+					>Age
+					<input
+						type="number"
+						name="number"
+						id="number"
+						min="12"
+						max="120"
+						placeholder="Age"
+				/></label>
+
+				<label for="placeholder-radio"> </label>
+			</fieldset>
+			<fieldset>
+				<label for="dropdown">
+					Placeholder Select
+					<select
+						id="dropdown"
+						name="dropdown">
+						<option value="">(select one)</option>
+						<option value="1">dropdown 1</option>
+						<option value="2">dropdown 2</option>
+						<option value="3">dropdown 3</option>
+						<option value="4">dropdown 4</option>
+					</select>
+				</label>
+				<legend>Feedback placeholder</legend>
+				<label for="radio1">
+					<input
+						type="radio"
+						name="feedback-placeholder"
+						id="radio1"
+						value="radio1"
+						checked />
+					Radio 1</label
+				>
+				<label for="radio2">
+					<input
+						type="radio"
+						name="feedback-placeholder"
+						id="radio2"
+						value="radio2" />
+					Radio 2</label
+				>
 			</fieldset>
 		</form>
 	</body>
